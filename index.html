@@ -25,7 +25,17 @@
             display: block; 
             margin: 0 auto; 
         }
-       
+        .social-links {
+            display: flex;
+            justify-content: center; 
+        }
+        .social-links a {
+            margin: 0 10px; 
+        }
+        .social-links img {
+            width: 50px; 
+            height: auto; 
+        }
 
     </style>
 </head>
@@ -68,18 +78,7 @@
         <h2 class="handwriting">birthday : 2001 10 16 </h2> 
     </div>
     </section>
-    <section>
-        <h2>연락처</h2>
-        <a href="https://www.instagram.com/gold3_jsy?igsh=MWI4OTFqeHJ1aGxnOQ==">
-            <img src="insta_logo.png" alt="instagram">
-        </a>
-        <a href="https://github.com/jsy011016">
-            <img src="github.png" alt="github">
-        </a>
-        <a href="https://blog.naver.com/dan_coding23">
-            <img src="blog.png" alt="blog">
-        </a>
-    </section>
+
     <section>
         <video controls width="240" height="360">
             <source src="bbyong.mp4" type="video/mp4">
@@ -89,7 +88,18 @@
         <h1>우리집 강아지 뿅이</h1>
     </section>
     <footer>
-        <p>© 2024 조서연</p>
+        <div class="social-links">
+        <a href="https://www.instagram.com/gold3_jsy?igsh=MWI4OTFqeHJ1aGxnOQ==">
+            <img src="insta_logo.png" alt="instagram">
+        </a>
+        <a href="https://github.com/jsy011016">
+            <img src="github.png" alt="github">
+        </a>
+        <a href="https://blog.naver.com/dan_coding23">
+            <img src="blog.png" alt="blog">
+        </a>
+    </div>
     </footer>
+     <p>© 2024 조서연</p>
 </body>
 </html>

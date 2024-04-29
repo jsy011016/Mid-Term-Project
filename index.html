@@ -5,9 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>자기 소개 사이트</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        .container{
+            text-align:center;
+        }
+        .con{
+            display: flex; 
+            align-items: center; 
+        }
+        .con img{
+            margin-right: 20px; 
+        }
+        .handwriting {
+            font-family: 'Your Handwriting Font', cursive; /* 필기체 글꼴을 적용합니다. */
+        }
+    </style>
 </head>
 <body>
+    <div class="container">
     <img src="selfy.jpg" class="circle">
+    </div>
     <header>
         <h1>조서연(32214298)</h1>
         <p>단국대학교 소프트웨어학과 학생</p>
@@ -15,12 +32,17 @@
     <section>
         <h2>소개</h2>
         <p>백엔드 지망
-            생년월일 : 01/10/16
         </p>
     </section>
     <section>
         <h2>MBTI</h2>
         <h3>ISFP 호기심 많은 예술가</h3>
+    </section>
+    <section>
+        <div class="con">
+        <img src="cake.jpg" class="circle"> 
+        <h2 class="handwriting">birthday : 2001 10 16 </h2> 
+    </div>
     </section>
     <section>
         <h2>연락처</h2>
